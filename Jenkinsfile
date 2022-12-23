@@ -11,5 +11,10 @@ pipeline{
                 echo 'Welcome World'
             }
         }
+         stage('Qa'){
+            steps{
+                echo 'Welcome Qa World'
+            }
+        }
     }
 }
